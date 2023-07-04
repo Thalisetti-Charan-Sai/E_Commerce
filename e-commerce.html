@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E Commerce Website</title>
+    <link rel="stylesheet" type="text/css" href="Style-e.css">
+    <script src="e_script.js"></script>
+</head>
+<body>
+    <header>
+       <h1>Internpe E-Commerce Website</h1>
+       <nav>
+          <ul>
+             <li><a href='#'>Home</a></li>
+             <li><a href='#'>Products</a></li>
+             <li><a href='#'>Saved</a></li>
+             <li><a href='#'>Orders</a></li>
+          </ul>
+       </nav>
+    </header>
+    <section id="product">
+        <div class="product">
+            <img src="java.jpg" alt="Java Textbook">
+            <h4>Java Edition 5</h4>
+            <p>Price:500 rs/-</p>
+            <button onclick="display('Java Edition 5',500)">Add to cart</button>
+        </div>
+        <div class="product">
+            <img src="python.jpg" alt="Python Textbook">
+            <h4>Python Edition 3</h4>
+            <p>Price:450 rs/-</p>
+            <button onclick="display('Python Edition 3',450)">Add to cart</button>
+        </div>
+        <div class="product">
+            <img src="r.jpg" alt="R Textbook">
+            <h4>R Edition 2</h4>
+            <p>Price:400 rs/-</p>
+            <button onclick="display('R Edition 2',400)">Add to cart</button>
+        </div>
+    </section>
+    <section id="card">
+        <h2 style="border-bottom:0px; margin-bottom:0px; padding-bottom:0px;"> Saved Cart:</h2>
+    </section>
+    <ul id="cart_products">
+	</ul>
+    <h2 style="margin-left:20px;">Total Cost:</h2>
+    <p id="total_value" style="margin-left:150px;">Total Cost:</p>    
+</body>
+</html>
